@@ -295,7 +295,7 @@ public class LeitorEfdIcms {
 					reg0200.setReg(lista.get(i));
 				}
 				if (i == 2) {
-					reg0200.setCodItem(UtilsEConverters.preencheZerosAEsquerda(lista.get(i)));
+					reg0200.setCodItem(lista.get(i));
 				}
 				if (i == 3) {
 					reg0200.setDescrItem(lista.get(i));
@@ -388,7 +388,7 @@ public class LeitorEfdIcms {
 					reg0205.setDtFim(UtilsEConverters.getStringParaData(lista.get(i)));
 				}
 				if (i == 5) {
-					reg0205.setCodAntItem(UtilsEConverters.preencheZerosAEsquerda(lista.get(i)));
+					reg0205.setCodAntItem(lista.get(i));
 				}
 
 			}
@@ -554,7 +554,7 @@ public class LeitorEfdIcms {
 						regC170.setNumItem(lista.get(i));
 					}
 					if (i == 3) {
-						regC170.setCodItem(UtilsEConverters.preencheZerosAEsquerda(lista.get(i)));
+						regC170.setCodItem(lista.get(i));
 					}
 					if (i == 4) {
 						regC170.setDescrCompl(lista.get(i));

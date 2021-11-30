@@ -42,7 +42,7 @@ public class Leitura {
 			for(RegC170 p : nota.getProdutosNota()){
 				
 				System.out.println(nota.getId()+"|"+nota.getIdPai()+"|"+nota.getChvNfe()+"|"+p.getCodItem()
-				        +"|"+p.getCfop());
+				        +"|"+p.getCfop()+"|"+p.getCstIcms().substring(0,1)+"|"+p.getCstIcms().substring(1,3));
 			}
 		}
 		
